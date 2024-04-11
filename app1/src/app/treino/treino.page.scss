@@ -1,0 +1,12 @@
+.accordion-container {
+    margin-top: 2px; /* Margem do topo */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+  /* Estilo para os itens do accordion */
+  ion-item {
+    max-width: 400px; /* Define a largura máxima dos itens */
+    width: 100%; /* Garante que os itens ocupem toda a largura disponível */
+  }
+  

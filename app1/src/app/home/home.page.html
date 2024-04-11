@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Gym Plan
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="body">
+  <ion-img class="img-gym" src="assets/icon/Captura-preview (1).png"></ion-img>
+
+ <h1>Selecione o tipo de treino: </h1>
+  <div class="centralizado">
+    <ion-button class="gerar" routerLink="/treinopeito" expand="block">Peito</ion-button>
+    <ion-button class="gerar" routerLink="/treinocostas" expand="block">Costas</ion-button>
+  <ion-button class="gerar" routerLink="/treinoombro" expand="block">Ombro</ion-button>
+  <ion-button class="gerar" routerLink="/treino" expand="block">Perna</ion-button>
+</div>

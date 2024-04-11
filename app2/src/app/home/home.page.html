@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Início
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="body" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tela inicial</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Ganho de massa</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        A dieta tem o objetivo de ganhar massa muscular de forma expressiva, sendo preciso consumir mais calorias do que gasta.
+      </ion-card-content>
+      <ion-button class="btn" routerLink="/ganho"fill="clear">começar</ion-button>
+    </ion-card>
+  
+    <ion-card class="pm">
+    <ion-card-header>
+      <ion-card-title class="pmt" >Perda de massa</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content class="pmc">
+      A dieta visa diminuição do peso perdendo o máximo possível de gordura corporal e o mínimo de massa muscular. 
+    </ion-card-content>
+    <ion-button class="pmb" fill="clear">começar</ion-button>
+  </ion-card>
+   
+  </div>
+  
+ 
+</ion-content>
+
